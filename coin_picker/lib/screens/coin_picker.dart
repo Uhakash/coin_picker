@@ -28,7 +28,6 @@ class _CoinPickerState extends State<CoinPicker> {
               "images/Vector.png",
               height: 130,
               width: 150,
-              // fit: BoxFit.cover,
             ),
             CoinSource(
               selectedCoins: selectedCoins,
@@ -46,7 +45,6 @@ class _CoinPickerState extends State<CoinPicker> {
 
   Widget buildButtons() {
     return Row(
-      // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
         const SizedBox(width: 10),
         GestureDetector(
@@ -145,7 +143,6 @@ class _CoinPickerState extends State<CoinPicker> {
       style: TextStyle(
         color: Colors.black,
         fontSize: 20,
-        // fontFamily: AppFonts.nunito,
         fontWeight: FontWeight.normal,
         letterSpacing: 1.2,
       ),

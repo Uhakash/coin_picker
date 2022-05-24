@@ -1,6 +1,6 @@
 # coin_picker
 
-A new Flutter project.
+A new Flutter project. Helps in picking random coins while playing games like housie etc., .
 
 ## Getting Started
 

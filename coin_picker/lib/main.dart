@@ -9,12 +9,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        // '/intro': (context) => IntroPage(),
         '/coin': (context) => CoinPicker(),
         '/ticket': (context) => Ticket(),
       },
-      initialRoute: '/coin', //home
-      //theme: ThemeData.dark(),
+      initialRoute: '/coin',
     );
   }
 }
